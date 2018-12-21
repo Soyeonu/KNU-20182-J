@@ -33,49 +33,49 @@ def sound_to_image(num):
     if num == 1:
         screen.blit(shaking,(100,200))  #snare
         pygame.display.update()
-        sleep(0.5)
+        sleep(0.1)
         screen.blit(drum,(50,50))
         pygame.display.update()
     elif num == 2:
         screen.blit(shaking2, (320,195))#floor
         pygame.display.update()
-        sleep(0.5)
+        sleep(0.1)
         screen.blit(drum,(50,50))
         pygame.display.update()
     elif num == 3:
         screen.blit(light2,(160,130))   #tom1
         pygame.display.update()
-        sleep(0.5)
+        sleep(0.1)
         screen.blit(drum,(50,50))
         pygame.display.update()
     elif num == 4:
         screen.blit(light3,(260,135))   #tom2
         pygame.display.update()
-        sleep(0.5)
+        sleep(0.1)
         screen.blit(drum,(50,50))
         pygame.display.update()
     elif num == 5:
         screen.blit(light,(100,80))     #crash
         pygame.display.update()
-        sleep(0.5)
+        sleep(0.1)
         screen.blit(drum,(50,50))
         pygame.display.update()
     elif num == 6:
         screen.blit(light3,(400,130))   #hat
         pygame.display.update()
-        sleep(0.5)
+        sleep(0.1)
         screen.blit(drum,(50,50))
         pygame.display.update()
     elif num == 7:
         screen.blit(light2,(270,90))    #ride
         pygame.display.update()
-        sleep(0.5)
+        sleep(0.1)
         screen.blit(drum,(50,50))
         pygame.display.update()
     elif num == 8:
         screen.blit(shaking,(220, 230)) #bass
         pygame.display.update()
-        sleep(0.5)
+        sleep(0.1)
         screen.blit(drum,(50,50))
         pygame.display.update()
         
